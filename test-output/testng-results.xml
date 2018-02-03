@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="97" started-at="2018-01-09T15:00:02Z" finished-at="2018-01-09T15:00:02Z">
+  <suite name="Suite" duration-ms="12964" started-at="2018-02-03T02:02:50Z" finished-at="2018-02-03T02:03:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="97" started-at="2018-01-09T15:00:02Z" finished-at="2018-01-09T15:00:02Z">
+    <test name="Test" duration-ms="12964" started-at="2018-02-03T02:02:50Z" finished-at="2018-02-03T02:03:03Z">
       <class name="com.Testcases.LoginTest">
-        <test-method status="PASS" signature="User_Login()[pri:0, instance:com.Testcases.LoginTest@13b32d7]" name="User_Login" duration-ms="32" started-at="2018-01-09T20:30:02Z" finished-at="2018-01-09T20:30:02Z">
+        <test-method status="PASS" signature="User_Login()[pri:0, instance:com.Testcases.LoginTest@1b2bbc3]" name="User_Login" duration-ms="11083" started-at="2018-02-03T07:32:52Z" finished-at="2018-02-03T07:33:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_Login -->

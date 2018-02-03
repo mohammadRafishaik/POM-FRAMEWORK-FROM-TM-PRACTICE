@@ -11,6 +11,12 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.6.0</version>
 </dependency>
+<!-- Codid fillo dependancy -->
+<dependency>
+  <groupId>com.codoid.products</groupId>
+  <artifactId>fillo</artifactId>
+  <version>1.17</version>
+</dependency>
   
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>

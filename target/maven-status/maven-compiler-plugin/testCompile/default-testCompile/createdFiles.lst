@@ -1,3 +1,4 @@
 com\Testcases\LoginTest.class
-com\Genericfunctions\Launchbrowser.class
 com\Screeningfunctions\Login.class
+com\Genericfunctions\TestNGLiseners.class
+com\Genericfunctions\Launchbrowser.class

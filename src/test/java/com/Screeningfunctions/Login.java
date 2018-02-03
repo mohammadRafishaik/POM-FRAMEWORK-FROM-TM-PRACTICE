@@ -36,12 +36,17 @@ public class Login extends Launchbrowser {
 		////////UserName action/
 		Usernme.click();
 		Usernme.clear();
-		Usernme.sendKeys("user01");
+		String UserName=GetCommanDataWithDbQuery("UserName");
+		System.out.println("Username from Excel "+UserName);
+		Usernme.sendKeys(UserName);
+//		Usernme.sendKeys("user01");
 		
 		//////Password Action//////////////
 		password.click();
 		password.click();
-		password.sendKeys("pass1234");
+		String psw=GetCommanDataWithDbQuery("Password");
+//		password.sendKeys("pass1234");
+		password.sendKeys(psw);
 		
 		//////////////Login Button Click/////////////
 		loginbutton.click();
@@ -52,7 +57,9 @@ public class Login extends Launchbrowser {
 		//////////From date field/////////
 		From_Date.click();
 		From_Date.clear();
-		From_Date.sendKeys("2018-01-03");
+		String date=GetCommanDataWithDbQuery("FromDate");
+		From_Date.sendKeys(date);
+//		From_Date.sendKeys("2018-01-03");
 		
 		return status;
 		

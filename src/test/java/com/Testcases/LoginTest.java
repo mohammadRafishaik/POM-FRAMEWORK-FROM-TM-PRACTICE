@@ -13,10 +13,12 @@ public class LoginTest extends Launchbrowser {
 		
 		try {
 			Launchbrowser lb=new Launchbrowser();
-			lb.browserlaunching("FF");
+			lb.browserlaunching("ff");
+			getScreenshot("sample");
 			System.out.println("page opened");
 			Login ln=PageFactory.initElements(driver,Login.class);
 			ln.Pag_login();
+			
 			
 		} catch (Exception e) {
 			
